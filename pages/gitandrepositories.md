@@ -110,14 +110,14 @@ This process needs to be repeated whenever you begin to work, to make sure that 
 Generally, follow these commands in your command line, but refer back above if there are any errors or further questions about why you are writing any of the following commands
 
 #### Get a personal copy of the repository
-* Clone your Github respoitory <yourusername>.github.io
-* Copy the HTTPS or SSH link from your repository on the Github site
+* Clone your Github respoitory  to your username.github.io
+* Copy the HTTPS or SSH link from your cloned repository on the Github site
 * On the command line, type `git clone *paste your HTTPS or SSH link here*`
 ---
 #### Understand your repositories and what they are used for
- * Understand that there are three levels of a Github repository: the upstream ([open-learning-exchange.github.io](https://github.com/open-learning-exchange/open-learning-exchange.github.io)), your username.github.io on Github and your username.github.io on your OS.
+ * Understand that there are three levels/copies of a Github repository: the upstream ([open-learning-exchange.github.io](https://github.com/open-learning-exchange/open-learning-exchange.github.io)), your username.github.io copy on Github and your username.github.io copy on your OS.
 * These need to be synced and checked constantly together.
-* The upstream repository is the one we are contributing to. You push changes you make on your OS to your personal Github copy and if your suggestions are approved, they will get merged into the upstream repository.
+* The upstream repository is the one we are contributing to. You push changes you make on your OS copy to your personal Github copy and if your suggestions are approved, they will get merged into the upstream repository copy.
 ---
 #### Configure the upstream repository to your fork
 * `cd <username>.github.io.`
@@ -127,7 +127,7 @@ Generally, follow these commands in your command line, but refer back above if t
 ---
 #### Sync Your Fork
 * `git fetch upstream` -  To fetch branches from the upstream repository.
-* `git checkout master` - Check to make sure branch is up to date with master.
+* `git checkout master` - Check to make sure your local branch is up to date with master.
 * `git merge upstream/master` - Your repository should now be synced to upstream/master repository and you can begin working!
 * Whenever you begin to work, make sure your respository is up to date with `git diff` and `git status` between your local and username.github.io repos, not your upstream repo.
 
