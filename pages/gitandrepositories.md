@@ -109,26 +109,27 @@ This process needs to be repeated whenever you begin to work, to make sure that 
 ### Summary
 Generally, follow these commands in your command line, but refer back above if there are any errors or further questions about why you are writing any of the following commands
 
-1. Clone your Githib respoitory username.github.io
-- Copy the HTTPS or SSH link from your repository on the Github site
-- On the command line, type `git clone *paste your HTTPS or SSH link here*`
+#### Get a personal copy of the repository
+* Clone your Github respoitory <yourusername>.github.io
+* Copy the HTTPS or SSH link from your repository on the Github site
+* On the command line, type `git clone *paste your HTTPS or SSH link here*`
 ---
-2. Understand that there are three levels of a Github repository: the upstream ([open-learning-exchange.github.io](https://github.com/open-learning-exchange/open-learning-exchange.github.io)), your username.github.io on Github and your username.github.io on your OS.
-These need to be synced and checked constantly.
-- The upstream repository is the one we are contributing to.
+#### Understand your repositories and what they are used for
+ * Understand that there are three levels of a Github repository: the upstream ([open-learning-exchange.github.io](https://github.com/open-learning-exchange/open-learning-exchange.github.io)), your username.github.io on Github and your username.github.io on your OS.
+* These need to be synced and checked constantly together.
+* The upstream repository is the one we are contributing to. You push changes you make on your OS to your personal Github copy and if your suggestions are approved, they will get merged into the upstream repository.
 ---
-3. Configure the upstream repository to your fork
-- `cd <username>.github.io.`
-- `git remote -v` see above to make sure you are pushing and fetching to your own repository on github as the origin
-- `git remote add upstream https://github.com/open-learning-exchange/open-learning-exchange.github.io.git`
-- `git remote -v` origins should remain the same as step 2, but you should also be fetching and pushing to OLE as the upstream now
+#### Configure the upstream repository to your fork
+* `cd <username>.github.io.`
+* `git remote -v` see above to make sure you are pushing and fetching to your own repository on github as the origin
+*`git remote add upstream https://github.com/open-learning-exchange/open-learning-exchange.github.io.git`
+* `git remote -v` origins should remain the same as step 2, but you should also be fetching and pushing to OLE as the upstream now.
 ---
-4. Sync Your Fork
-- `git fetch upstream` -  to fetch branches from the upstream repsoitory
-- `git checkout master` - check to make sure branch is up-to-date with master
-- `git merge upstream/master` - You repository should now be synced to upstream/master
----
-5. Whenever you begin to work, make sure your respository is up to date with `git diff` and `git status` between your local and username.github.io repos, not your upstream repo.
+#### Sync Your Fork
+* `git fetch upstream` -  To fetch branches from the upstream repository.
+* `git checkout master` - Check to make sure branch is up to date with master.
+* `git merge upstream/master` - Your repository should now be synced to upstream/master repository and you can begin working!
+* Whenever you begin to work, make sure your respository is up to date with `git diff` and `git status` between your local and username.github.io repos, not your upstream repo.
 
 If you find yourself needing to rebase your forked repository, the following two links should help
 [Rebase](https://git-scm.com/docs/git-rebase)
