@@ -27,7 +27,7 @@ Create a prototype Progressive Web App using Angular & CouchDB with the BeLL App
     ```
 
 4. Then go into the CouchDB dashboard at `http://127.0.0.1:5984/_utils` and enable CORS by clicking __Configuration__ -> __CORS__, click the __Enable CORS__ button and add `http://localhost:3000` and/or `http://127.0.0.1:3000` to the list
- 
+
     *Paul's note: add image here*
 
 5. Run `npm install` to install the dependencies
@@ -82,7 +82,18 @@ A unit test of an Angular component should not involve calls to the database to 
 
 As mentioned in the Angular docs, there are other ways to circumvent using the database in unit tests, but spies are a good place to start.
 
+## Resources for learning Angular/Tutorials
+
+The following are some solid free resources for deepening your understanding of the fundementals of Angular in order to assist in this ongoing project:
+
+[The Official Angular tutorial ](https://angular.io/)
+[Shaping Up With Angular (Code School)] (https://www.codeschool.com/courses/shaping-up-with-angularjs)
+[Create an Angular Component )egghead.io]
+(https://egghead.io/lessons/angular-2-create-a-simple-angular-2-component)
+[AngularJS on CodeAcademy]
+(https://www.codecademy.com/courses/javascript-advanced-en-2hJ3J/0/1)
+[Coursetro Angular Course](https://coursetro.com/courses/8/Learn-Angular-2-Development-with-our-Free-Course)
+
 ## Broader goals
 
-WIP 
-
+WIP
